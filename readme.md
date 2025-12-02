@@ -1,8 +1,10 @@
 # emailSender
 
-A simple Python module to send emails using Google's Gmail (RESTful) API instead SMTP.
+A simple Python module to send emails using Google's Gmail (RESTful) API instead of using SMTP.
 Useful when wanting to send emails programmatically without dealing with SMTP servers.
-Ability to format emails in HTML, attach files, and manage authentication via OAuth2.
+
+Ability to format emails in HTML, attach files, using inline images, and manage authentication via OAuth2.
+
 Making emails look professional and well crafted adding logos, images, rich text formatting, and more.
 
 ## Features
@@ -13,6 +15,8 @@ Making emails look professional and well crafted adding logos, images, rich text
 
 ### TODO
 - [x] Implement batch email sending
+- [ ] Implement threading or async for improved performance
+- [ ] Add delayed sending feature to avoid rate limits
 - [ ] Implement email scheduling
 - [ ] Add support for multiple email providers
 - [ ] Improve error handling and logging
