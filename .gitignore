@@ -1,6 +1,8 @@
 /.idea
 /attachments
+/icons
 /messages
 /recipients
 credentials.json
 token.json
+config.json
